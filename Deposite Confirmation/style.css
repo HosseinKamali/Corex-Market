@@ -1,0 +1,43 @@
+
+
+ul li:nth-child(4)::after{
+    background-color: aliceblue;
+    width: 86%!important;
+    height: 2px!important;
+    bottom: -5px;
+    left: 0;
+}
+
+ .btn-back{
+    
+        outline: none;
+        border: none;
+        padding: 10px 21px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    
+}
+
+.qr-code img{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.back-corex{
+    background-color: white;
+    color: #000000;
+    outline: none;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 7px;
+}
+
+
+.backTrc{
+    background-color: rgba(17, 42, 27,0.7);
+    border-radius: 3px;
+    padding: 3px 3px;
+    }
+    

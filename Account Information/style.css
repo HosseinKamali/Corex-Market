@@ -1,0 +1,63 @@
+
+
+.active{
+    color: white!important ;
+}
+
+
+
+
+ul li:nth-child(1)::after{
+    background-color: aliceblue;
+    width: 86%!important;
+    height: 2px!important;
+    bottom: -5px;
+    left: 0;
+}
+
+
+.form-control-spesial{
+    width: 100%;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 12px;
+}
+form div label{
+    font-size: 14px;
+}
+
+.btn-green{
+    outline: none;
+    border: none;
+    padding: 10px 21px;
+    border-radius: 10px;
+    background-color: #53a338;
+    color: aliceblue;
+}
+.btn-back{
+    
+        outline: none;
+        border: none;
+        padding: 10px 21px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    
+}
+
+
+.form-label{
+    margin-bottom: 0;
+
+}
+.move{
+position: absolute;
+right: -100%; 
+margin: 0 auto;
+
+
+
+}
+

@@ -1,0 +1,136 @@
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+
+
+.height{
+    height:auto ;
+}
+
+
+
+
+
+
+
+ul li:nth-child(2)::after{
+    background-color: aliceblue;
+    width: 86%!important;
+    height: 2px!important;
+    bottom: -5px;
+    left: 0;
+}
+
+.form-control-spesial{
+    width: 100%;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#form-main{
+position: relative;
+}
+#form-main a{
+    position: absolute;
+    right: -15%;
+    top: 53%;
+}
+
+.btn-green{
+    outline: none;
+    border: none;
+    padding: 10px 21px;
+    border-radius: 10px;
+    background-color: #53a338;
+    color: aliceblue;
+}
+.btn-back{
+    
+        outline: none;
+        border: none;
+        padding: 10px 21px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    
+}
+
+
+.btn-bots{
+    background-color: #53a338;
+    border-radius: 50%;
+    padding: 5px 10px;
+    position: relative;
+    
+}
+.btn-bots:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.btn-bots::after{
+    content: "";
+    background-color: #ffffff;
+    width: 3px;
+    height: 61%;
+    position: absolute;
+    top: -57%;
+    right: 47%;
+}
+
+.label-addjs{
+        text-align: left;
+    }
+
+    div.element{
+        overflow-y: auto;
+    
+    }
+  div.element::-webkit-scrollbar{
+    background-color: #222520;
+    width: 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 100%;
+  }
+  div.element::-webkit-scrollbar-button{
+    background-color: rgb(22, 21, 21);
+  }
+  div.element::-webkit-scrollbar-thumb{
+    background-color: aqua;
+  }
+  
+  .color-green{
+    color: #53a338;
+  }
+  .color-green:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .trash-place{
+    bottom: 190px;
+    right: -28px;
+  }
+       
+#errorText{
+    bottom: 0;
+    left: 0;
+}
+input[type=" number"]:invalid{
+    background-color: #39af11;
+}
+#inputsContainer label{
+    margin-top: 12px;
+}
+
+  
+  

@@ -1,0 +1,47 @@
+
+ul li:nth-child(3)::after{
+    background-color: aliceblue;
+    width: 86%!important;
+    height: 2px!important;
+    bottom: -5px;
+    left: 0;
+}
+
+
+
+form div label{
+    font-size: 14px;
+}
+
+
+.btn-back{
+    
+        outline: none;
+        border: none;
+        padding: 10px 21px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    
+}
+
+
+.discribe{
+    margin: 0;
+    padding: 0;
+}
+
+.backTrc{
+background-color: rgba(17, 42, 27,0.7);
+border-radius: 3px;
+padding: 3px 3px;
+}
+
+
+ .img-qrcode img{
+        width: 85%;
+ }
+
+ .textDiscribTrc{
+    color: rgba(160, 177, 167, 0.9);
+ }
